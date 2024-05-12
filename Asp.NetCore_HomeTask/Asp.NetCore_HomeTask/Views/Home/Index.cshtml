@@ -1,0 +1,91 @@
+﻿@using Asp.NetCore_HomeTask.ViewModels
+@model HomeVM
+
+@*task1*@
+
+<style>
+        table, th, td {
+            border: 1px solid black;
+        }
+</style>
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Surname</th>
+        <th>Email</th>
+        <th>Age</th>
+        <th>Phone Number</th>
+
+    </tr>
+    @foreach (var item in Model.Students)
+    {
+       <tr>
+           <td>@item.Name</td>
+           <td>@item.Surname</td>
+           <td>@item.Email</td>
+           <td>@item.Age</td>
+           <td>@item.PhoneNumber</td>
+       </tr>
+
+
+    }
+
+</table>
+
+<br/>
+<br/>
+
+@*Task2*@
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Surname</th>
+        <th>Email</th>
+        <th>Age</th>
+        <th>Phone Number</th>
+
+    </tr>
+    @foreach (var item in Model.StudentsByDesc)
+    {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.Surname</td>
+            <td>@item.Email</td>
+            <td>@item.Age</td>
+            <td>@item.PhoneNumber</td>
+        </tr>
+
+
+    }
+
+</table>
+
+<br />
+
+@*Task3*@
+
+<h1>@Model.ProductsCount</h1>
+
+<br />
+
+@*Task4*@
+
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Color</th>
+    </tr>
+    @foreach (var item in Model.Products)
+    {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.Price</td>
+            <td>@item.Color</td>
+        </tr>
+    }
+
+</table>
+

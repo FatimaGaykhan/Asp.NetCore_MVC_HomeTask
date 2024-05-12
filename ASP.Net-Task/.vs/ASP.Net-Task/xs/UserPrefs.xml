@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{14017779-73F4-42DC-9D38-EAD823F6BEE9}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ASP.Net-Task PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ASP.Net-Task/Controllers/HomeController.cs">
+    <Files>
+      <File FileName="ASP.Net-Task/Program.cs" Line="8" Column="52" />
+      <File FileName="ASP.Net-Task/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="ASP.Net-Task/Views/Home/Index.cshtml" />
+      <File FileName="ASP.Net-Task/Controllers/ContactController.cs" />
+      <File FileName="ASP.Net-Task/Views/Contact/Index.cshtml" />
+      <File FileName="ASP.Net-Task/ViewModels/HomeVM.cs" />
+      <File FileName="ASP.Net-Task/Models/User.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ASP.Net-Task" expanded="True">
+            <Node name="ASP.Net-Task" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="HomeController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Contact" expanded="True" />
+                <Node name="Home" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
